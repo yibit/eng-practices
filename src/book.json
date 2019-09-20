@@ -1,0 +1,60 @@
+{
+    "title": "Google's Code Review Guidelines",
+    "author": "Google",
+    "description": "Google's Code Review Guidelines",
+    "language": "zh-hans",
+    "styles": {
+      "website": "./public-repertory/css/gitbook-configure.css"
+    },
+    "plugins": [
+      "theme-comscore",
+      "prism",
+      "-highlight",
+      "copy-code-button",
+      "search-pro",
+      "-search",
+      "-lunr",
+      "expandable-chapters",
+      "splitter",
+      "-sharing",
+      "github-buttons",
+      "tbfed-pagefooter",
+      "anchor-navigation-ex"
+    ],
+    "pluginsConfig": {
+      "github-buttons": {
+        "buttons": [
+          {
+            "user": "yibit",
+            "repo": "litchi",
+            "type": "star",
+            "count": true,
+            "size": "small"
+          },
+          {
+            "user": "yibit",
+            "width": "160",
+            "type": "follow",
+            "count": true,
+            "size": "small"
+          }
+        ]
+      },
+      "prism": {
+        "css": [
+          "prismjs/themes/prism-solarizedlight.css"
+        ],
+        "lang": {
+          "shell": "bash"
+        }
+      },
+      "tbfed-pagefooter": {
+        "copyright":"Copyright&copy Google 2019",
+        "modify_label": "Last-Modified：",
+        "modify_format": "YYYY-MM-DD HH:mm:ss"
+      },
+      "anchor-navigation-ex": {
+        "showLevel": false
+      }
+    }
+}
